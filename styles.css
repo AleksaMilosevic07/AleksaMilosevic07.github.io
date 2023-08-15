@@ -1,29 +1,37 @@
+@font-face {
+    font-family: 'Inconsolata', monospace;
+    src: url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap);
+}
+
+
 body {
     background-color: #232323;
 }
 
 h1, h2, h3, h4, h5, h6, p {
+    font-family: "Inconsolata";
     color: white;
 }
 
 .block {
     background-color: #4e4e4e;
+    border-radius: 8px;
 }
 
 .photoBlock {
     position: relative;
     margin: 0% 25% 0% 5%;
-    width: 1330px;
+    width: 1310px;
     height: 300px;
-    border-radius: 8px;
+    top: 10px;
 }
 
 .NavigationBlock {
-    position: relative;
+    position: absolute;
     width: 300px;
-    height: 700px;
+    height: 860px;
     left: 76%;
-    border-radius: 8px;
+    top: 69px;
 }
 
 .button {
@@ -67,7 +75,7 @@ h1, h2, h3, h4, h5, h6, p {
 .chessButton {
     position: relative; 
     left: 78px;
-    bottom: -320px;
+    bottom: -450px;
 }
 
 .otherSocialsText {
@@ -125,4 +133,16 @@ h1, h2, h3, h4, h5, h6, p {
 
 .itchio:hover {
     transform: scale(1.30);
+}
+
+.homeBio {
+    font-size: 35px;
+}
+
+.projectsBlock {
+    position: relative;
+    top: 30px;
+    width: 1310px;
+    height: 700px;
+    left: 92px;
 }
