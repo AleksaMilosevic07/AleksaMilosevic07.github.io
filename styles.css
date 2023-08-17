@@ -146,3 +146,11 @@ h1, h2, h3, h4, h5, h6, p {
     height: 700px;
     left: 92px;
 }
+
+.projectsText {
+    position: absolute;
+    left: 580px;
+}
+
+
+/* About page special classes */
