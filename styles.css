@@ -1,37 +1,29 @@
-@font-face {
-    font-family: 'Inconsolata', monospace;
-    src: url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap);
-}
-
-
 body {
     background-color: #232323;
 }
 
 h1, h2, h3, h4, h5, h6, p {
-    font-family: "Inconsolata";
     color: white;
 }
 
 .block {
     background-color: #4e4e4e;
-    border-radius: 8px;
 }
 
 .photoBlock {
     position: relative;
     margin: 0% 25% 0% 5%;
-    width: 1310px;
+    width: 1330px;
     height: 300px;
-    top: 10px;
+    border-radius: 8px;
 }
 
 .NavigationBlock {
-    position: absolute;
+    position: relative;
     width: 300px;
-    height: 860px;
+    height: 700px;
     left: 76%;
-    top: 69px;
+    border-radius: 8px;
 }
 
 .button {
@@ -75,7 +67,7 @@ h1, h2, h3, h4, h5, h6, p {
 .chessButton {
     position: relative; 
     left: 78px;
-    bottom: -450px;
+    bottom: -320px;
 }
 
 .otherSocialsText {
@@ -133,6 +125,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .itchio:hover {
     transform: scale(1.30);
+<<<<<<< HEAD
 }
 
 .homeBio {
@@ -154,3 +147,6 @@ h1, h2, h3, h4, h5, h6, p {
 
 
 /* About page special classes */
+=======
+}
+>>>>>>> parent of 79ff76a (Home page)
