@@ -66,9 +66,9 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .chessButton {
-    position: relative; 
-    left: 78px;
-    bottom: -300px;
+    position: absolute; 
+    left: 85px;
+    bottom: 60px;
 }
 
 .otherSocialsText {
@@ -77,55 +77,32 @@ h1, h2, h3, h4, h5, h6, p {
     top: 140px;
 }
 
-.socialsButtons {
-    
-    width: 50px;
-    height: 50px;
-}
-
 .instagram {
     position: relative;
-    top: 150px;
-    left: 20px;
+    top: 140px;
+    left: 50px;
     transition: all 0.3s;
-}
-
-.instagram:hover {
-    transform: scale(1.30);
 }
 
 .github {
     position: relative;
-    top: 150px;
-    left: 45px;
-    width: 60px;
+    top: 140px;
+    left: 65px;
     transition: all 0.3s;
-}
-
-.github:hover {
-    transform: scale(1.30);
 }
 
 .discord {
     position: relative;
-    top: 150px;
-    left: 60px;
+    top: 140px;
+    left: 80px;
     transition: all 0.3s;
-}
-
-.discord:hover {
-    transform: scale(1.30);
 }
 
 .itchio {
     position: relative;
-    top: 215px;
-    left: -150px;
+    top: 140px;
+    left: 95px;
     transition: all 0.3s;
-}
-
-.itchio:hover {
-    transform: scale(1.30);
 }
 
 .homeBio {
