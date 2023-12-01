@@ -123,5 +123,12 @@ h1, h2, h3, h4, h5, h6, p {
     left: 580px;
 }
 
+.project  {
+    background-color:darkgray; 
+    border-radius: 18px;
+    height: 260px; 
+    width: 510px;
+}
+
 
 
