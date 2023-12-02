@@ -80,28 +80,28 @@ h1, h2, h3, h4, h5, h6, p {
 .instagram {
     position: relative;
     top: 140px;
-    left: 50px;
+    left: 70px;
     transition: all 0.3s;
 }
 
 .github {
     position: relative;
     top: 140px;
-    left: 65px;
+    left: 110px;
     transition: all 0.3s;
 }
 
 .discord {
     position: relative;
     top: 140px;
-    left: 80px;
+    left: 150px;
     transition: all 0.3s;
 }
 
 .itchio {
     position: relative;
     top: 140px;
-    left: 95px;
+    left: 200px;
     transition: all 0.3s;
 }
 
